@@ -1,0 +1,141 @@
+body {
+    background-color: white;
+    font-family: Georgia;
+    background-image: url(https://de5rx1ff5hkfw.cloudfront.net/wp-content/uploads/2014/11/Landscape-Photography-steps.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+
+}
+
+#wrap {
+    width: 60%;
+    border: 1px white;
+    margin: 0 auto;
+}
+
+header img {
+    width: 100%;
+}
+
+header {
+    background-color: #cccccc;
+    text-align: center;
+    font-size: 72px;
+}
+
+nav {
+    background-color: orange;
+    padding: 50px;
+    text-align: inline;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: white;
+    padding: 30px;
+    margin-right: 10px;
+    font-family: Georgia, sans-serif, cursive;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: red;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+body.fall {
+    background-image: none;
+    background-color: orange;
+}
+
+body.winter {
+    background-image: none;
+    background-color: lightblue;
+}
+
+.fall nav {
+    background-color: orange;
+
+}
+
+.fall nav a:hover {
+    color: orange;
+}
+
+.winter nav,
+.winter footer {
+    background-color: blue;
+}
+
+.winter h1 {
+    color: navy;
+}
+
+.winter nav a:hover {
+    color: lightblue;
+}
+
+body.spring {
+    background-image: none;
+    background-color: yellow;
+}
+
+.spring h1 {
+    color: lightgreen;
+}
+
+.spring nav,
+.spring footer {
+    background-color: yellow;
+}
+
+.spring nav a:hover {
+    color: deeppink;
+}
+
+body.summer {
+    background-image: none;
+    background-color: gold;
+}
+
+.summer nav,
+.summer footer {
+    background-color: red;
+}
+
+section {
+    background-color: white;
+    padding: 30px;
+    overflow: auto;
+}
+
+h1 {
+    color: orange;
+    font: Georgia, sans-serif;
+
+}
+
+div.box {
+    width: 500px;
+    height: 500px;
+    background-color: orange;
+    padding: 10px;
+    border: 10px solid black;
+}
+
+footer {
+    background-color: pink;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
