@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<html lang="en">
+<header>header</header>
+<navigation>navigation</navigation>
+
+<head>
+    <title>Nivo Slider Demo</title>
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="slideshow.css" type="text/css" media="screen" />
+</head>
+
+<body>
+    <div id="wrapper">
+        <a href="http://dev7studios.com" id="dev7link" title="Go to dev7studios"></a>
+
+        <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="images/soccer.jpg" data-thumb="images/soccer.jpg" alt="soccer" />
+                <a href="http://dev7studios.com"><img src="images/basketball.jpg" data-thumb="images/basketball.jpg" alt="basketball" title="This is an example of a caption" /></a>
+                <img src="images/football.jpg" data-thumb="images/football.jpg" alt="football" data-transition="slideInLeft" />
+                <img src="images/golf.jpg" data-thumb="images/golf.jpg" alt="golf" title="#htmlcaption" />
+            </div>
+            <div id="htmlcaption" class="nivo-html-caption">
+                <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+            </div>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider();
+        });
+
+    </script>
+</body>
+<footer>footer</footer>
+
+</html>
